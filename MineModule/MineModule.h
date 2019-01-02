@@ -16,4 +16,6 @@ FOUNDATION_EXPORT const unsigned char MineModuleVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <MineModule/PublicHeader.h>
 
+#import <MineModule/LeccoMineModuleController.h>
+
 

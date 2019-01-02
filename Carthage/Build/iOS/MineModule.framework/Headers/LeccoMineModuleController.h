@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LeccoMineModuleController.h
 //  MineModuleDemo
 //
 //  Created by yixin on 2019/1/2.
@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <MineModule/MineModule.h>
 
-@interface ViewController : LeccoMineModuleController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface LeccoMineModuleController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

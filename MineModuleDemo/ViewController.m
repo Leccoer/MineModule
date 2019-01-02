@@ -15,9 +15,19 @@
 
 @implementation ViewController
 
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+    if (self = [super initWithNibName:NSStringFromClass([self.superclass class]) bundle:nibBundleOrNil])  {
+        
+    }
+    return self;
+}
+
+- (void)awakeFromNib {
+    [super awakeFromNib];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
 
