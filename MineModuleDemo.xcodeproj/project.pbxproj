@@ -22,6 +22,7 @@
 		91B0235E21DCB4C000D54227 /* LeccoMineModuleController.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B0234421DCB3BF00D54227 /* LeccoMineModuleController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91B0235F21DCB4FB00D54227 /* LeccoMineModuleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91B0234621DCB3BF00D54227 /* LeccoMineModuleController.xib */; };
 		91B0236B21DCC1A000D54227 /* MineModule.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 91B0234E21DCB43900D54227 /* MineModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		91B0236F21DCC8E100D54227 /* LeccoMineModuleController.xib in Headers */ = {isa = PBXBuildFile; fileRef = 91B0234621DCB3BF00D54227 /* LeccoMineModuleController.xib */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -161,6 +162,7 @@
 			files = (
 				91B0235221DCB43900D54227 /* MineModule.h in Headers */,
 				91B0235E21DCB4C000D54227 /* LeccoMineModuleController.h in Headers */,
+				91B0236F21DCC8E100D54227 /* LeccoMineModuleController.xib in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
