@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#import "LeccoMineModuleController.h"
+
 //! Project version number for MineModule.
 FOUNDATION_EXPORT double MineModuleVersionNumber;
 

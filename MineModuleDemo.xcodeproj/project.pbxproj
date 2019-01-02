@@ -19,8 +19,9 @@
 		91B0235521DCB43900D54227 /* MineModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B0234E21DCB43900D54227 /* MineModule.framework */; };
 		91B0235621DCB43900D54227 /* MineModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 91B0234E21DCB43900D54227 /* MineModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		91B0235C21DCB46A00D54227 /* LeccoMineModuleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B0234521DCB3BF00D54227 /* LeccoMineModuleController.m */; };
-		91B0235E21DCB4C000D54227 /* LeccoMineModuleController.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B0234421DCB3BF00D54227 /* LeccoMineModuleController.h */; };
+		91B0235E21DCB4C000D54227 /* LeccoMineModuleController.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B0234421DCB3BF00D54227 /* LeccoMineModuleController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91B0235F21DCB4FB00D54227 /* LeccoMineModuleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91B0234621DCB3BF00D54227 /* LeccoMineModuleController.xib */; };
+		91B0236B21DCC1A000D54227 /* MineModule.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 91B0234E21DCB43900D54227 /* MineModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +37,23 @@
 /* Begin PBXCopyFilesBuildPhase section */
 		91B0235A21DCB43900D54227 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
 				91B0235621DCB43900D54227 /* MineModule.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		91B0236A21DCC19100D54227 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				91B0236B21DCC1A000D54227 /* MineModule.framework in CopyFiles */,
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -164,6 +175,7 @@
 				91B0232621DCB38400D54227 /* Frameworks */,
 				91B0232721DCB38400D54227 /* Resources */,
 				91B0235A21DCB43900D54227 /* Embed Frameworks */,
+				91B0236A21DCC19100D54227 /* CopyFiles */,
 			);
 			buildRules = (
 			);
