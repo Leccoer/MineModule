@@ -13,7 +13,39 @@
 		91B0233621DCB38500D54227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91B0233521DCB38500D54227 /* Assets.xcassets */; };
 		91B0233921DCB38500D54227 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91B0233721DCB38500D54227 /* LaunchScreen.storyboard */; };
 		91B0233C21DCB38500D54227 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B0233B21DCB38500D54227 /* main.m */; };
+		91B0234721DCB3BF00D54227 /* LeccoMineModuleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B0234521DCB3BF00D54227 /* LeccoMineModuleController.m */; };
+		91B0234821DCB3BF00D54227 /* LeccoMineModuleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91B0234621DCB3BF00D54227 /* LeccoMineModuleController.xib */; };
+		91B0235221DCB43900D54227 /* MineModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B0235021DCB43900D54227 /* MineModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91B0235521DCB43900D54227 /* MineModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B0234E21DCB43900D54227 /* MineModule.framework */; };
+		91B0235621DCB43900D54227 /* MineModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 91B0234E21DCB43900D54227 /* MineModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		91B0235C21DCB46A00D54227 /* LeccoMineModuleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B0234521DCB3BF00D54227 /* LeccoMineModuleController.m */; };
+		91B0235E21DCB4C000D54227 /* LeccoMineModuleController.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B0234421DCB3BF00D54227 /* LeccoMineModuleController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91B0235F21DCB4FB00D54227 /* LeccoMineModuleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91B0234621DCB3BF00D54227 /* LeccoMineModuleController.xib */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91B0235321DCB43900D54227 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91B0232121DCB38400D54227 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91B0234D21DCB43900D54227;
+			remoteInfo = MineModule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		91B0235A21DCB43900D54227 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				91B0235621DCB43900D54227 /* MineModule.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		91B0232921DCB38400D54227 /* MineModuleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MineModuleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,10 +58,25 @@
 		91B0233821DCB38500D54227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91B0233A21DCB38500D54227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91B0233B21DCB38500D54227 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91B0234321DCB3A100D54227 /* MineModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineModule.h; sourceTree = "<group>"; };
+		91B0234421DCB3BF00D54227 /* LeccoMineModuleController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeccoMineModuleController.h; sourceTree = "<group>"; };
+		91B0234521DCB3BF00D54227 /* LeccoMineModuleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeccoMineModuleController.m; sourceTree = "<group>"; };
+		91B0234621DCB3BF00D54227 /* LeccoMineModuleController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeccoMineModuleController.xib; sourceTree = "<group>"; };
+		91B0234E21DCB43900D54227 /* MineModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MineModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91B0235021DCB43900D54227 /* MineModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineModule.h; sourceTree = "<group>"; };
+		91B0235121DCB43900D54227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		91B0232621DCB38400D54227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B0235521DCB43900D54227 /* MineModule.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91B0234B21DCB43900D54227 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,7 +89,9 @@
 		91B0232021DCB38400D54227 = {
 			isa = PBXGroup;
 			children = (
+				91B0234221DCB38900D54227 /* MineModule */,
 				91B0232B21DCB38400D54227 /* MineModuleDemo */,
+				91B0234F21DCB43900D54227 /* MineModule */,
 				91B0232A21DCB38400D54227 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				91B0232921DCB38400D54227 /* MineModuleDemo.app */,
+				91B0234E21DCB43900D54227 /* MineModule.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,7 +121,39 @@
 			path = MineModuleDemo;
 			sourceTree = "<group>";
 		};
+		91B0234221DCB38900D54227 /* MineModule */ = {
+			isa = PBXGroup;
+			children = (
+				91B0234321DCB3A100D54227 /* MineModule.h */,
+				91B0234421DCB3BF00D54227 /* LeccoMineModuleController.h */,
+				91B0234521DCB3BF00D54227 /* LeccoMineModuleController.m */,
+				91B0234621DCB3BF00D54227 /* LeccoMineModuleController.xib */,
+			);
+			path = MineModule;
+			sourceTree = "<group>";
+		};
+		91B0234F21DCB43900D54227 /* MineModule */ = {
+			isa = PBXGroup;
+			children = (
+				91B0235021DCB43900D54227 /* MineModule.h */,
+				91B0235121DCB43900D54227 /* Info.plist */,
+			);
+			path = MineModule;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		91B0234921DCB43900D54227 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B0235221DCB43900D54227 /* MineModule.h in Headers */,
+				91B0235E21DCB4C000D54227 /* LeccoMineModuleController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		91B0232821DCB38400D54227 /* MineModuleDemo */ = {
@@ -81,15 +163,35 @@
 				91B0232521DCB38400D54227 /* Sources */,
 				91B0232621DCB38400D54227 /* Frameworks */,
 				91B0232721DCB38400D54227 /* Resources */,
+				91B0235A21DCB43900D54227 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				91B0235421DCB43900D54227 /* PBXTargetDependency */,
 			);
 			name = MineModuleDemo;
 			productName = MineModuleDemo;
 			productReference = 91B0232921DCB38400D54227 /* MineModuleDemo.app */;
 			productType = "com.apple.product-type.application";
+		};
+		91B0234D21DCB43900D54227 /* MineModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91B0235721DCB43900D54227 /* Build configuration list for PBXNativeTarget "MineModule" */;
+			buildPhases = (
+				91B0234921DCB43900D54227 /* Headers */,
+				91B0234A21DCB43900D54227 /* Sources */,
+				91B0234B21DCB43900D54227 /* Frameworks */,
+				91B0234C21DCB43900D54227 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MineModule;
+			productName = MineModule;
+			productReference = 91B0234E21DCB43900D54227 /* MineModule.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -101,6 +203,9 @@
 				ORGANIZATIONNAME = lecco;
 				TargetAttributes = {
 					91B0232821DCB38400D54227 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					91B0234D21DCB43900D54227 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -119,6 +224,7 @@
 			projectRoot = "";
 			targets = (
 				91B0232821DCB38400D54227 /* MineModuleDemo */,
+				91B0234D21DCB43900D54227 /* MineModule */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +237,15 @@
 				91B0233921DCB38500D54227 /* LaunchScreen.storyboard in Resources */,
 				91B0233621DCB38500D54227 /* Assets.xcassets in Resources */,
 				91B0233421DCB38400D54227 /* Main.storyboard in Resources */,
+				91B0234821DCB3BF00D54227 /* LeccoMineModuleController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91B0234C21DCB43900D54227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B0235F21DCB4FB00D54227 /* LeccoMineModuleController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,10 +259,27 @@
 				91B0233121DCB38400D54227 /* ViewController.m in Sources */,
 				91B0233C21DCB38500D54227 /* main.m in Sources */,
 				91B0232E21DCB38400D54227 /* AppDelegate.m in Sources */,
+				91B0234721DCB3BF00D54227 /* LeccoMineModuleController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91B0234A21DCB43900D54227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B0235C21DCB46A00D54227 /* LeccoMineModuleController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91B0235421DCB43900D54227 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91B0234D21DCB43900D54227 /* MineModule */;
+			targetProxy = 91B0235321DCB43900D54227 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		91B0233221DCB38400D54227 /* Main.storyboard */ = {
@@ -288,13 +420,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3AHZ82SGX3;
 				INFOPLIST_FILE = MineModuleDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lecco.MineModuleDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,13 +438,70 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3AHZ82SGX3;
 				INFOPLIST_FILE = MineModuleDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lecco.MineModuleDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		91B0235821DCB43900D54227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3AHZ82SGX3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MineModule/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lecco.MineModule;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		91B0235921DCB43900D54227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3AHZ82SGX3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MineModule/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lecco.MineModule;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -332,6 +522,15 @@
 			buildConfigurations = (
 				91B0234021DCB38500D54227 /* Debug */,
 				91B0234121DCB38500D54227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91B0235721DCB43900D54227 /* Build configuration list for PBXNativeTarget "MineModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91B0235821DCB43900D54227 /* Debug */,
+				91B0235921DCB43900D54227 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
