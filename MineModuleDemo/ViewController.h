@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <MineModule/MineModule.h>
+#import <MineModule/LeccoMineModuleController.h>
 
 @interface ViewController : LeccoMineModuleController
 

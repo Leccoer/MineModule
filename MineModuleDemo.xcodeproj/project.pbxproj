@@ -7,22 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		548DD7FA47B19C7DDB327FAF /* libPods-MineModuleDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 263E4182F7EA81BDCC3752CA /* libPods-MineModuleDemo.a */; };
+		659F6D3EFB16A1CDF183B471 /* libPods-MineModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CEAFC60A819458AE217B24 /* libPods-MineModule.a */; };
+		91A780B021DDAB540066E2BD /* LeccoMineModuleController.h in Headers */ = {isa = PBXBuildFile; fileRef = 91A780AD21DDAB540066E2BD /* LeccoMineModuleController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91A780B121DDAB540066E2BD /* LeccoMineModuleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A780AE21DDAB540066E2BD /* LeccoMineModuleController.m */; };
+		91A780B621DDACED0066E2BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A780B421DDACED0066E2BD /* ViewController.m */; };
+		91A780CF21DDD6C90066E2BD /* LeccoMineModuleCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 91A780CC21DDD6C90066E2BD /* LeccoMineModuleCell.h */; };
+		91A780D021DDD6C90066E2BD /* LeccoMineModuleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A780CD21DDD6C90066E2BD /* LeccoMineModuleCell.m */; };
+		91A780D421DDD78D0066E2BD /* LeccoMineModuleTableHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 91A780D221DDD78D0066E2BD /* LeccoMineModuleTableHeaderView.h */; };
+		91A780D521DDD78D0066E2BD /* LeccoMineModuleTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A780D321DDD78D0066E2BD /* LeccoMineModuleTableHeaderView.m */; };
+		91A780E221DDD9220066E2BD /* LeccoMineModuleTableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91A780D621DDD7970066E2BD /* LeccoMineModuleTableHeaderView.xib */; };
+		91A780E321DDD9220066E2BD /* LeccoMineModuleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91A780CE21DDD6C90066E2BD /* LeccoMineModuleCell.xib */; };
+		91A780E421DDDA200066E2BD /* MineModuleBundle.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = 91A780DC21DDD8D30066E2BD /* MineModuleBundle.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		91B0232E21DCB38400D54227 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B0232D21DCB38400D54227 /* AppDelegate.m */; };
-		91B0233121DCB38400D54227 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B0233021DCB38400D54227 /* ViewController.m */; };
 		91B0233421DCB38400D54227 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91B0233221DCB38400D54227 /* Main.storyboard */; };
 		91B0233621DCB38500D54227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91B0233521DCB38500D54227 /* Assets.xcassets */; };
 		91B0233921DCB38500D54227 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91B0233721DCB38500D54227 /* LaunchScreen.storyboard */; };
 		91B0233C21DCB38500D54227 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B0233B21DCB38500D54227 /* main.m */; };
-		91B0234721DCB3BF00D54227 /* LeccoMineModuleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B0234521DCB3BF00D54227 /* LeccoMineModuleController.m */; };
-		91B0234821DCB3BF00D54227 /* LeccoMineModuleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91B0234621DCB3BF00D54227 /* LeccoMineModuleController.xib */; };
-		91B0235221DCB43900D54227 /* MineModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B0235021DCB43900D54227 /* MineModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91B0235521DCB43900D54227 /* MineModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B0234E21DCB43900D54227 /* MineModule.framework */; };
 		91B0235621DCB43900D54227 /* MineModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 91B0234E21DCB43900D54227 /* MineModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		91B0235C21DCB46A00D54227 /* LeccoMineModuleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B0234521DCB3BF00D54227 /* LeccoMineModuleController.m */; };
-		91B0235E21DCB4C000D54227 /* LeccoMineModuleController.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B0234421DCB3BF00D54227 /* LeccoMineModuleController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91B0235F21DCB4FB00D54227 /* LeccoMineModuleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91B0234621DCB3BF00D54227 /* LeccoMineModuleController.xib */; };
 		91B0236B21DCC1A000D54227 /* MineModule.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 91B0234E21DCB43900D54227 /* MineModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		91B0236F21DCC8E100D54227 /* LeccoMineModuleController.xib in Headers */ = {isa = PBXBuildFile; fileRef = 91B0234621DCB3BF00D54227 /* LeccoMineModuleController.xib */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				91A780E421DDDA200066E2BD /* MineModuleBundle.bundle in CopyFiles */,
 				91B0236B21DCC1A000D54227 /* MineModule.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -60,31 +65,53 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		263E4182F7EA81BDCC3752CA /* libPods-MineModuleDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MineModuleDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31A0FB832E38861C72065E7D /* Pods-MineModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MineModule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MineModule/Pods-MineModule.debug.xcconfig"; sourceTree = "<group>"; };
+		37CB17F99554484BB35E7735 /* libPods-MineModuleBundle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MineModuleBundle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50169B94266E07129F1CF84A /* Pods-MineModuleDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MineModuleDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MineModuleDemo/Pods-MineModuleDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5444206986FDBF8BC6C629BA /* Pods-MineModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MineModule.release.xcconfig"; path = "Pods/Target Support Files/Pods-MineModule/Pods-MineModule.release.xcconfig"; sourceTree = "<group>"; };
+		75CEAFC60A819458AE217B24 /* libPods-MineModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MineModule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77B87DE1295C7F0C69C90613 /* Pods-MineModuleBundle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MineModuleBundle.release.xcconfig"; path = "Pods/Target Support Files/Pods-MineModuleBundle/Pods-MineModuleBundle.release.xcconfig"; sourceTree = "<group>"; };
+		8390CD615408FC3623AB2869 /* Pods-MineModuleDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MineModuleDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MineModuleDemo/Pods-MineModuleDemo.release.xcconfig"; sourceTree = "<group>"; };
+		91A780AD21DDAB540066E2BD /* LeccoMineModuleController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeccoMineModuleController.h; sourceTree = "<group>"; };
+		91A780AE21DDAB540066E2BD /* LeccoMineModuleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeccoMineModuleController.m; sourceTree = "<group>"; };
+		91A780B321DDACED0066E2BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		91A780B421DDACED0066E2BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		91A780CC21DDD6C90066E2BD /* LeccoMineModuleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeccoMineModuleCell.h; sourceTree = "<group>"; };
+		91A780CD21DDD6C90066E2BD /* LeccoMineModuleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeccoMineModuleCell.m; sourceTree = "<group>"; };
+		91A780CE21DDD6C90066E2BD /* LeccoMineModuleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeccoMineModuleCell.xib; sourceTree = "<group>"; };
+		91A780D221DDD78D0066E2BD /* LeccoMineModuleTableHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeccoMineModuleTableHeaderView.h; sourceTree = "<group>"; };
+		91A780D321DDD78D0066E2BD /* LeccoMineModuleTableHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeccoMineModuleTableHeaderView.m; sourceTree = "<group>"; };
+		91A780D621DDD7970066E2BD /* LeccoMineModuleTableHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeccoMineModuleTableHeaderView.xib; sourceTree = "<group>"; };
+		91A780DC21DDD8D30066E2BD /* MineModuleBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MineModuleBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A780DE21DDD8D30066E2BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91B0232921DCB38400D54227 /* MineModuleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MineModuleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91B0232C21DCB38400D54227 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		91B0232D21DCB38400D54227 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		91B0232F21DCB38400D54227 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		91B0233021DCB38400D54227 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		91B0233321DCB38400D54227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		91B0233521DCB38500D54227 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91B0233821DCB38500D54227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91B0233A21DCB38500D54227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91B0233B21DCB38500D54227 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		91B0234321DCB3A100D54227 /* MineModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineModule.h; sourceTree = "<group>"; };
-		91B0234421DCB3BF00D54227 /* LeccoMineModuleController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeccoMineModuleController.h; sourceTree = "<group>"; };
-		91B0234521DCB3BF00D54227 /* LeccoMineModuleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeccoMineModuleController.m; sourceTree = "<group>"; };
-		91B0234621DCB3BF00D54227 /* LeccoMineModuleController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeccoMineModuleController.xib; sourceTree = "<group>"; };
 		91B0234E21DCB43900D54227 /* MineModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MineModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		91B0235021DCB43900D54227 /* MineModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineModule.h; sourceTree = "<group>"; };
-		91B0235121DCB43900D54227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0C0A27B351040A2DEE91FB7 /* Pods-MineModuleBundle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MineModuleBundle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MineModuleBundle/Pods-MineModuleBundle.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		91A780D921DDD8D30066E2BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		91B0232621DCB38400D54227 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				91B0235521DCB43900D54227 /* MineModule.framework in Frameworks */,
+				548DD7FA47B19C7DDB327FAF /* libPods-MineModuleDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,19 +119,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				659F6D3EFB16A1CDF183B471 /* libPods-MineModule.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E908BCB9027F49880D7B02E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31A0FB832E38861C72065E7D /* Pods-MineModule.debug.xcconfig */,
+				5444206986FDBF8BC6C629BA /* Pods-MineModule.release.xcconfig */,
+				E0C0A27B351040A2DEE91FB7 /* Pods-MineModuleBundle.debug.xcconfig */,
+				77B87DE1295C7F0C69C90613 /* Pods-MineModuleBundle.release.xcconfig */,
+				50169B94266E07129F1CF84A /* Pods-MineModuleDemo.debug.xcconfig */,
+				8390CD615408FC3623AB2869 /* Pods-MineModuleDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		91A780DD21DDD8D30066E2BD /* MineModuleBundle */ = {
+			isa = PBXGroup;
+			children = (
+				91A780D621DDD7970066E2BD /* LeccoMineModuleTableHeaderView.xib */,
+				91A780CE21DDD6C90066E2BD /* LeccoMineModuleCell.xib */,
+				91A780DE21DDD8D30066E2BD /* Info.plist */,
+			);
+			path = MineModuleBundle;
+			sourceTree = "<group>";
+		};
 		91B0232021DCB38400D54227 = {
 			isa = PBXGroup;
 			children = (
+				91A780DD21DDD8D30066E2BD /* MineModuleBundle */,
 				91B0234221DCB38900D54227 /* MineModule */,
 				91B0232B21DCB38400D54227 /* MineModuleDemo */,
-				91B0234F21DCB43900D54227 /* MineModule */,
 				91B0232A21DCB38400D54227 /* Products */,
+				0E908BCB9027F49880D7B02E /* Pods */,
+				AF83FABB8DCBBE361D7D66E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +166,7 @@
 			children = (
 				91B0232921DCB38400D54227 /* MineModuleDemo.app */,
 				91B0234E21DCB43900D54227 /* MineModule.framework */,
+				91A780DC21DDD8D30066E2BD /* MineModuleBundle.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,8 +176,8 @@
 			children = (
 				91B0232C21DCB38400D54227 /* AppDelegate.h */,
 				91B0232D21DCB38400D54227 /* AppDelegate.m */,
-				91B0232F21DCB38400D54227 /* ViewController.h */,
-				91B0233021DCB38400D54227 /* ViewController.m */,
+				91A780B321DDACED0066E2BD /* ViewController.h */,
+				91A780B421DDACED0066E2BD /* ViewController.m */,
 				91B0233221DCB38400D54227 /* Main.storyboard */,
 				91B0233521DCB38500D54227 /* Assets.xcassets */,
 				91B0233721DCB38500D54227 /* LaunchScreen.storyboard */,
@@ -137,20 +191,24 @@
 			isa = PBXGroup;
 			children = (
 				91B0234321DCB3A100D54227 /* MineModule.h */,
-				91B0234421DCB3BF00D54227 /* LeccoMineModuleController.h */,
-				91B0234521DCB3BF00D54227 /* LeccoMineModuleController.m */,
-				91B0234621DCB3BF00D54227 /* LeccoMineModuleController.xib */,
+				91A780AD21DDAB540066E2BD /* LeccoMineModuleController.h */,
+				91A780AE21DDAB540066E2BD /* LeccoMineModuleController.m */,
+				91A780CC21DDD6C90066E2BD /* LeccoMineModuleCell.h */,
+				91A780CD21DDD6C90066E2BD /* LeccoMineModuleCell.m */,
+				91A780D221DDD78D0066E2BD /* LeccoMineModuleTableHeaderView.h */,
+				91A780D321DDD78D0066E2BD /* LeccoMineModuleTableHeaderView.m */,
 			);
 			path = MineModule;
 			sourceTree = "<group>";
 		};
-		91B0234F21DCB43900D54227 /* MineModule */ = {
+		AF83FABB8DCBBE361D7D66E5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				91B0235021DCB43900D54227 /* MineModule.h */,
-				91B0235121DCB43900D54227 /* Info.plist */,
+				75CEAFC60A819458AE217B24 /* libPods-MineModule.a */,
+				37CB17F99554484BB35E7735 /* libPods-MineModuleBundle.a */,
+				263E4182F7EA81BDCC3752CA /* libPods-MineModuleDemo.a */,
 			);
-			path = MineModule;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,19 +218,37 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91B0235221DCB43900D54227 /* MineModule.h in Headers */,
-				91B0235E21DCB4C000D54227 /* LeccoMineModuleController.h in Headers */,
-				91B0236F21DCC8E100D54227 /* LeccoMineModuleController.xib in Headers */,
+				91A780D421DDD78D0066E2BD /* LeccoMineModuleTableHeaderView.h in Headers */,
+				91A780CF21DDD6C90066E2BD /* LeccoMineModuleCell.h in Headers */,
+				91A780B021DDAB540066E2BD /* LeccoMineModuleController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		91A780DB21DDD8D30066E2BD /* MineModuleBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91A780DF21DDD8D30066E2BD /* Build configuration list for PBXNativeTarget "MineModuleBundle" */;
+			buildPhases = (
+				91A780D821DDD8D30066E2BD /* Sources */,
+				91A780D921DDD8D30066E2BD /* Frameworks */,
+				91A780DA21DDD8D30066E2BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MineModuleBundle;
+			productName = MineModuleBundle;
+			productReference = 91A780DC21DDD8D30066E2BD /* MineModuleBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		91B0232821DCB38400D54227 /* MineModuleDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91B0233F21DCB38500D54227 /* Build configuration list for PBXNativeTarget "MineModuleDemo" */;
 			buildPhases = (
+				488E469172F8A2C0A3194BDD /* [CP] Check Pods Manifest.lock */,
 				91B0232521DCB38400D54227 /* Sources */,
 				91B0232621DCB38400D54227 /* Frameworks */,
 				91B0232721DCB38400D54227 /* Resources */,
@@ -193,6 +269,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91B0235721DCB43900D54227 /* Build configuration list for PBXNativeTarget "MineModule" */;
 			buildPhases = (
+				8ED2F9EFAE4B9A434E10B685 /* [CP] Check Pods Manifest.lock */,
 				91B0234921DCB43900D54227 /* Headers */,
 				91B0234A21DCB43900D54227 /* Sources */,
 				91B0234B21DCB43900D54227 /* Frameworks */,
@@ -216,6 +293,9 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = lecco;
 				TargetAttributes = {
+					91A780DB21DDD8D30066E2BD = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					91B0232821DCB38400D54227 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -239,11 +319,21 @@
 			targets = (
 				91B0232821DCB38400D54227 /* MineModuleDemo */,
 				91B0234D21DCB43900D54227 /* MineModule */,
+				91A780DB21DDD8D30066E2BD /* MineModuleBundle */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		91A780DA21DDD8D30066E2BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A780E221DDD9220066E2BD /* LeccoMineModuleTableHeaderView.xib in Resources */,
+				91A780E321DDD9220066E2BD /* LeccoMineModuleCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		91B0232721DCB38400D54227 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -251,7 +341,6 @@
 				91B0233921DCB38500D54227 /* LaunchScreen.storyboard in Resources */,
 				91B0233621DCB38500D54227 /* Assets.xcassets in Resources */,
 				91B0233421DCB38400D54227 /* Main.storyboard in Resources */,
-				91B0234821DCB3BF00D54227 /* LeccoMineModuleController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,21 +348,73 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91B0235F21DCB4FB00D54227 /* LeccoMineModuleController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		488E469172F8A2C0A3194BDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MineModuleDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ED2F9EFAE4B9A434E10B685 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MineModule-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		91A780D821DDD8D30066E2BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		91B0232521DCB38400D54227 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91B0233121DCB38400D54227 /* ViewController.m in Sources */,
+				91A780B621DDACED0066E2BD /* ViewController.m in Sources */,
 				91B0233C21DCB38500D54227 /* main.m in Sources */,
 				91B0232E21DCB38400D54227 /* AppDelegate.m in Sources */,
-				91B0234721DCB3BF00D54227 /* LeccoMineModuleController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +422,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91B0235C21DCB46A00D54227 /* LeccoMineModuleController.m in Sources */,
+				91A780B121DDAB540066E2BD /* LeccoMineModuleController.m in Sources */,
+				91A780D521DDD78D0066E2BD /* LeccoMineModuleTableHeaderView.m in Sources */,
+				91A780D021DDD6C90066E2BD /* LeccoMineModuleCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +458,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		91A780E021DDD8D30066E2BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = NO;
+				DEVELOPMENT_TEAM = 3AHZ82SGX3;
+				INFOPLIST_FILE = MineModuleBundle/Info.plist;
+				INSTALL_PATH = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lecco.MineModuleBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		91A780E121DDD8D30066E2BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = NO;
+				DEVELOPMENT_TEAM = 3AHZ82SGX3;
+				INFOPLIST_FILE = MineModuleBundle/Info.plist;
+				INSTALL_PATH = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lecco.MineModuleBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		91B0233D21DCB38500D54227 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -429,6 +608,7 @@
 		};
 		91B0234021DCB38500D54227 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50169B94266E07129F1CF84A /* Pods-MineModuleDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +627,7 @@
 		};
 		91B0234121DCB38500D54227 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8390CD615408FC3623AB2869 /* Pods-MineModuleDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -465,6 +646,7 @@
 		};
 		91B0235821DCB43900D54227 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31A0FB832E38861C72065E7D /* Pods-MineModule.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -493,6 +675,7 @@
 		};
 		91B0235921DCB43900D54227 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5444206986FDBF8BC6C629BA /* Pods-MineModule.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +705,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		91A780DF21DDD8D30066E2BD /* Build configuration list for PBXNativeTarget "MineModuleBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91A780E021DDD8D30066E2BD /* Debug */,
+				91A780E121DDD8D30066E2BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		91B0232421DCB38400D54227 /* Build configuration list for PBXProject "MineModuleDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
